@@ -7,7 +7,7 @@ import UserInfo from './components/UserInfo'
 function App() {
 
   const [updateInfo, setUpdateInfo] = useState()
-  const baseUrl = 'http://localhost:8080'
+  const baseUrl = 'https://backend-2-dev-xade.3.us-1.fl0.io'
   const [users,
       getAllCars,
       createNewCar,
